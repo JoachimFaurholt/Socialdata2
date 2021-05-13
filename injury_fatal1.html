@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="eb2f458d-f521-4318-9d39-8ae87fa55898" data-root-id="11019"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="11206">
+          {"db6b39aa-8504-428c-988d-4cf173ceb6b1":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"field":"Pedestrian accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11050","type":"VBar"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.1},"line_color":{"value":"#ff7f0e"},"top":{"field":"Cyclists accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11069","type":"VBar"},{"attributes":{},"id":"11064","type":"Selection"},{"attributes":{"label":{"value":"All accidents"},"renderers":[{"id":"11089"}]},"id":"11102","type":"LegendItem"},{"attributes":{"axis_label":"Frequency of contributing factors for data sets","formatter":{"id":"11104"},"major_label_policy":{"id":"11058"},"ticker":{"id":"11031"}},"id":"11030","type":"LinearAxis"},{"attributes":{"label":{"value":"Pedestrian accidents"},"renderers":[{"id":"11052"}]},"id":"11066","type":"LegendItem"},{"attributes":{"format":"0 %"},"id":"11104","type":"NumeralTickFormatter"},{"attributes":{"fill_alpha":{"value":0.04},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.04},"line_color":{"value":"#1f77b4"},"top":{"field":"Pedestrian accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11051","type":"VBar"},{"attributes":{"data_source":{"id":"11017"},"glyph":{"id":"11049"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"11051"},"nonselection_glyph":{"id":"11050"},"view":{"id":"11053"}},"id":"11052","type":"GlyphRenderer"},{"attributes":{},"id":"11028","type":"CategoricalTicker"},{"attributes":{"fill_alpha":{"value":0.04},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.04},"line_color":{"value":"#2ca02c"},"top":{"field":"All accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11088","type":"VBar"},{"attributes":{"label":{"value":"Cyclists accidents"},"renderers":[{"id":"11071"}]},"id":"11084","type":"LegendItem"},{"attributes":{"active_multi":null,"tools":[{"id":"11034"},{"id":"11035"},{"id":"11036"},{"id":"11037"},{"id":"11038"},{"id":"11039"}]},"id":"11041","type":"Toolbar"},{"attributes":{"click_policy":"mute","items":[{"id":"11066"},{"id":"11084"},{"id":"11102"}],"label_text_font_size":"10px"},"id":"11065","type":"Legend"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":0.1},"line_color":{"value":"#2ca02c"},"top":{"field":"All accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11087","type":"VBar"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","syncable":false,"top_units":"screen"},"id":"11040","type":"BoxAnnotation"},{"attributes":{},"id":"11034","type":"PanTool"},{"attributes":{"overlay":{"id":"11040"}},"id":"11036","type":"BoxZoomTool"},{"attributes":{"data_source":{"id":"11017"},"glyph":{"id":"11086"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"11088"},"nonselection_glyph":{"id":"11087"},"view":{"id":"11090"}},"id":"11089","type":"GlyphRenderer"},{"attributes":{"source":{"id":"11017"}},"id":"11072","type":"CDSView"},{"attributes":{"data_source":{"id":"11017"},"glyph":{"id":"11068"},"hover_glyph":null,"muted":true,"muted_glyph":{"id":"11070"},"nonselection_glyph":{"id":"11069"},"view":{"id":"11072"}},"id":"11071","type":"GlyphRenderer"},{"attributes":{"fill_alpha":{"value":1.2},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":1.2},"line_color":{"value":"#ff7f0e"},"top":{"field":"Cyclists accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11068","type":"VBar"},{"attributes":{},"id":"11063","type":"UnionRenderers"},{"attributes":{},"id":"11021","type":"DataRange1d"},{"attributes":{},"id":"11031","type":"BasicTicker"},{"attributes":{"fill_alpha":{"value":1.2},"fill_color":{"value":"#2ca02c"},"line_alpha":{"value":1.2},"line_color":{"value":"#2ca02c"},"top":{"field":"All accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11086","type":"VBar"},{"attributes":{},"id":"11037","type":"SaveTool"},{"attributes":{"formatter":{"id":"11059"},"major_label_orientation":1.0471975511965976,"major_label_policy":{"id":"11061"},"ticker":{"id":"11028"}},"id":"11027","type":"CategoricalAxis"},{"attributes":{},"id":"11039","type":"HelpTool"},{"attributes":{"source":{"id":"11017"}},"id":"11053","type":"CDSView"},{"attributes":{"fill_alpha":{"value":1.2},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":1.2},"line_color":{"value":"#1f77b4"},"top":{"field":"Pedestrian accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11049","type":"VBar"},{"attributes":{"below":[{"id":"11027"}],"center":[{"id":"11029"},{"id":"11033"},{"id":"11065"}],"left":[{"id":"11030"}],"renderers":[{"id":"11052"},{"id":"11071"},{"id":"11089"}],"right":[{"id":"11065"}],"title":{"id":"11054"},"toolbar":{"id":"11041"},"width":900,"x_range":{"id":"11018"},"x_scale":{"id":"11023"},"y_range":{"id":"11021"},"y_scale":{"id":"11025"}},"id":"11019","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"11038","type":"ResetTool"},{"attributes":{},"id":"11058","type":"AllLabels"},{"attributes":{},"id":"11025","type":"LinearScale"},{"attributes":{"source":{"id":"11017"}},"id":"11090","type":"CDSView"},{"attributes":{},"id":"11061","type":"AllLabels"},{"attributes":{"factors":["No injury","With injury","Fatal"]},"id":"11018","type":"FactorRange"},{"attributes":{},"id":"11059","type":"CategoricalTickFormatter"},{"attributes":{"data":{"All accidents":{"__ndarray__":"qNylcCtI6T+ZJ3yMs7fKP5kFRo/LOlM/","dtype":"float64","order":"little","shape":[3]},"Cyclists accidents":{"__ndarray__":"DA2opvvHzT8HH1bhg3HoP1a23f80fWw/","dtype":"float64","order":"little","shape":[3]},"Pedestrian accidents":{"__ndarray__":"DCaRm5UGnj9vaxK6canuPx7YQkRmlok/","dtype":"float64","order":"little","shape":[3]},"Time":["No injury","With injury","Fatal"]},"selected":{"id":"11064"},"selection_policy":{"id":"11063"}},"id":"11017","type":"ColumnDataSource"},{"attributes":{"fill_alpha":{"value":0.04},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.04},"line_color":{"value":"#ff7f0e"},"top":{"field":"Cyclists accidents"},"width":{"value":0.8},"x":{"field":"Time"}},"id":"11070","type":"VBar"},{"attributes":{"axis":{"id":"11030"},"dimension":1,"ticker":null},"id":"11033","type":"Grid"},{"attributes":{"text":"Contributing factors frequency in data sets"},"id":"11054","type":"Title"},{"attributes":{},"id":"11035","type":"WheelZoomTool"},{"attributes":{},"id":"11023","type":"CategoricalScale"},{"attributes":{"axis":{"id":"11027"},"ticker":null},"id":"11029","type":"Grid"}],"root_ids":["11019"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('11206').textContent;
+                  var render_items = [{"docid":"db6b39aa-8504-428c-988d-4cf173ceb6b1","root_ids":["11019"],"roots":{"11019":"eb2f458d-f521-4318-9d39-8ae87fa55898"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

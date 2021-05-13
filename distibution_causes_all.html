@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="26d2028c-11f2-4332-9be2-c6132ade93dc" data-root-id="14711"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="14913">
+          {"4de2310a-0a56-40a7-af7a-2569570423f0":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{},"id":"14718","type":"CategoricalScale"},{"attributes":{},"id":"14789","type":"Selection"},{"attributes":{"below":[{"id":"14722"}],"center":[{"id":"14724"},{"id":"14728"},{"id":"14751"}],"height":1000,"left":[{"id":"14725"}],"outline_line_color":null,"renderers":[{"id":"14740"},{"id":"14757"},{"id":"14775"}],"title":{"id":"14712"},"toolbar":{"id":"14729"},"toolbar_location":null,"width":1200,"x_range":{"id":"14714"},"x_scale":{"id":"14718"},"y_range":{"id":"14716"},"y_scale":{"id":"14720"}},"id":"14711","subtype":"Figure","type":"Plot"},{"attributes":{},"id":"14746","type":"CategoricalTickFormatter"},{"attributes":{"factors":["Aggressive Driving/Road Rage","Alcohol Involvement","Backing Unsafely","Driver Inattention/Distraction","Driver Inexperience","Failure to Yield Right-of-Way","Following Too Closely","Glare","Other Vehicular","Passenger Distraction","Passing Too Closely","Passing or Lane Usage Improper","Pavement Slippery","Pedestrian/Bicyclist/Other Pedestrian Error/Confusion","Reaction to Uninvolved Vehicle","Traffic Control Disregarded","Turning Improperly","Unsafe Lane Changing","Unsafe Speed","View Obstructed/Limited"],"range_padding":0.1},"id":"14714","type":"FactorRange"},{"attributes":{},"id":"14745","type":"AllLabels"},{"attributes":{"bottom":{"expr":{"id":"14734"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.1},"line_color":{"value":"#ff7f0e"},"top":{"expr":{"id":"14735"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"14774","type":"VBar"},{"attributes":{},"id":"14749","type":"UnionRenderers"},{"attributes":{"bottom":{"expr":{"id":"14732"}},"fill_color":{"value":"#aec7e8"},"line_color":{"value":"#aec7e8"},"top":{"expr":{"id":"14733"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"14755","type":"VBar"},{"attributes":{"fields":["No injuries","With injuries"]},"id":"14733","type":"Stack"},{"attributes":{"fields":[]},"id":"14730","type":"Stack"},{"attributes":{"label":{"value":"Fatal"},"renderers":[{"id":"14775"}]},"id":"14790","type":"LegendItem"},{"attributes":{"fields":["No injuries"]},"id":"14731","type":"Stack"},{"attributes":{"label":{"value":"With injuries"},"renderers":[{"id":"14757"}]},"id":"14770","type":"LegendItem"},{"attributes":{"source":{"id":"14771"}},"id":"14776","type":"CDSView"},{"attributes":{},"id":"14768","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"14746"},"major_label_orientation":"vertical","major_label_policy":{"id":"14748"},"minor_tick_line_color":null,"ticker":{"id":"14723"}},"id":"14722","type":"CategoricalAxis"},{"attributes":{},"id":"14748","type":"AllLabels"},{"attributes":{"data_source":{"id":"14753"},"glyph":{"id":"14755"},"hover_glyph":null,"muted_glyph":null,"name":"With injuries","nonselection_glyph":{"id":"14756"},"view":{"id":"14758"}},"id":"14757","type":"GlyphRenderer"},{"attributes":{"data":{"Causes":["Aggressive Driving/Road Rage","Alcohol Involvement","Backing Unsafely","Driver Inattention/Distraction","Driver Inexperience","Failure to Yield Right-of-Way","Following Too Closely","Glare","Other Vehicular","Passenger Distraction","Passing Too Closely","Passing or Lane Usage Improper","Pavement Slippery","Pedestrian/Bicyclist/Other Pedestrian Error/Confusion","Reaction to Uninvolved Vehicle","Traffic Control Disregarded","Turning Improperly","Unsafe Lane Changing","Unsafe Speed","View Obstructed/Limited"],"Fatal":[0.0008950948800572861,0.004027183488547697,0.00043784579867054096,0.0006106708086078033,0.0011029227452749788,0.0016218721037998146,7.53899071761768e-05,0.002041649652919559,0.0003315063649222065,0.0010183299389002036,4.2661206032294534e-05,0.0003943439806208101,0.0003463203463203463,0.009382528210980094,0.0003682466200220948,0.0033026328030514467,0.00042271382274200367,0.00027826966860612195,0.00973050078964797,0.0008111944838775097],"No injuries":[0.6960257787325457,0.6859635875492911,0.9128089798192891,0.7837063735446785,0.8094450293277184,0.6536530738337967,0.7686189511379165,0.6255614536545528,0.8196605374823197,0.7767311608961304,0.9416608007508372,0.8859219198918371,0.7438961038961039,0.27361480917966274,0.7808932610868536,0.5685180016745743,0.8467310131041285,0.8850240323804706,0.5997248968363136,0.7300750354897587],"With injuries":[0.3030791263873971,0.31000922896216127,0.08675317438204036,0.21568295564671366,0.18945204792700657,0.34472505406240345,0.2313056589549074,0.37239689669252757,0.18000795615275814,0.22225050916496944,0.05829653804313048,0.11368373612754211,0.25575757575757574,0.7170026626093572,0.2187384922931243,0.4281793655223742,0.15284627307312948,0.11469769795092336,0.39054460237403843,0.26911377002636383]},"selected":{"id":"14750"},"selection_policy":{"id":"14749"}},"id":"14736","type":"ColumnDataSource"},{"attributes":{},"id":"14788","type":"UnionRenderers"},{"attributes":{"fields":["No injuries","With injuries","Fatal"]},"id":"14735","type":"Stack"},{"attributes":{},"id":"14720","type":"LinearScale"},{"attributes":{"data_source":{"id":"14771"},"glyph":{"id":"14773"},"hover_glyph":null,"muted_glyph":null,"name":"Fatal","nonselection_glyph":{"id":"14774"},"view":{"id":"14776"}},"id":"14775","type":"GlyphRenderer"},{"attributes":{"fields":["No injuries","With injuries"]},"id":"14734","type":"Stack"},{"attributes":{"source":{"id":"14736"}},"id":"14741","type":"CDSView"},{"attributes":{"data_source":{"id":"14736"},"glyph":{"id":"14738"},"hover_glyph":null,"muted_glyph":null,"name":"No injuries","nonselection_glyph":{"id":"14739"},"view":{"id":"14741"}},"id":"14740","type":"GlyphRenderer"},{"attributes":{},"id":"14750","type":"Selection"},{"attributes":{"bottom":{"expr":{"id":"14730"}},"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"14731"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"14738","type":"VBar"},{"attributes":{"text":"Causes and distributions of severity for all accidents from 2016 to 2020"},"id":"14712","type":"Title"},{"attributes":{"start":0},"id":"14716","type":"DataRange1d"},{"attributes":{"source":{"id":"14753"}},"id":"14758","type":"CDSView"},{"attributes":{},"id":"14769","type":"Selection"},{"attributes":{"data":{"Causes":["Aggressive Driving/Road Rage","Alcohol Involvement","Backing Unsafely","Driver Inattention/Distraction","Driver Inexperience","Failure to Yield Right-of-Way","Following Too Closely","Glare","Other Vehicular","Passenger Distraction","Passing Too Closely","Passing or Lane Usage Improper","Pavement Slippery","Pedestrian/Bicyclist/Other Pedestrian Error/Confusion","Reaction to Uninvolved Vehicle","Traffic Control Disregarded","Turning Improperly","Unsafe Lane Changing","Unsafe Speed","View Obstructed/Limited"],"Fatal":[0.0008950948800572861,0.004027183488547697,0.00043784579867054096,0.0006106708086078033,0.0011029227452749788,0.0016218721037998146,7.53899071761768e-05,0.002041649652919559,0.0003315063649222065,0.0010183299389002036,4.2661206032294534e-05,0.0003943439806208101,0.0003463203463203463,0.009382528210980094,0.0003682466200220948,0.0033026328030514467,0.00042271382274200367,0.00027826966860612195,0.00973050078964797,0.0008111944838775097],"No injuries":[0.6960257787325457,0.6859635875492911,0.9128089798192891,0.7837063735446785,0.8094450293277184,0.6536530738337967,0.7686189511379165,0.6255614536545528,0.8196605374823197,0.7767311608961304,0.9416608007508372,0.8859219198918371,0.7438961038961039,0.27361480917966274,0.7808932610868536,0.5685180016745743,0.8467310131041285,0.8850240323804706,0.5997248968363136,0.7300750354897587],"With injuries":[0.3030791263873971,0.31000922896216127,0.08675317438204036,0.21568295564671366,0.18945204792700657,0.34472505406240345,0.2313056589549074,0.37239689669252757,0.18000795615275814,0.22225050916496944,0.05829653804313048,0.11368373612754211,0.25575757575757574,0.7170026626093572,0.2187384922931243,0.4281793655223742,0.15284627307312948,0.11469769795092336,0.39054460237403843,0.26911377002636383]},"selected":{"id":"14789"},"selection_policy":{"id":"14788"}},"id":"14771","type":"ColumnDataSource"},{"attributes":{"formatter":{"id":"14791"},"major_label_policy":{"id":"14745"},"minor_tick_line_color":null,"ticker":{"id":"14726"}},"id":"14725","type":"LinearAxis"},{"attributes":{"data":{"Causes":["Aggressive Driving/Road Rage","Alcohol Involvement","Backing Unsafely","Driver Inattention/Distraction","Driver Inexperience","Failure to Yield Right-of-Way","Following Too Closely","Glare","Other Vehicular","Passenger Distraction","Passing Too Closely","Passing or Lane Usage Improper","Pavement Slippery","Pedestrian/Bicyclist/Other Pedestrian Error/Confusion","Reaction to Uninvolved Vehicle","Traffic Control Disregarded","Turning Improperly","Unsafe Lane Changing","Unsafe Speed","View Obstructed/Limited"],"Fatal":[0.0008950948800572861,0.004027183488547697,0.00043784579867054096,0.0006106708086078033,0.0011029227452749788,0.0016218721037998146,7.53899071761768e-05,0.002041649652919559,0.0003315063649222065,0.0010183299389002036,4.2661206032294534e-05,0.0003943439806208101,0.0003463203463203463,0.009382528210980094,0.0003682466200220948,0.0033026328030514467,0.00042271382274200367,0.00027826966860612195,0.00973050078964797,0.0008111944838775097],"No injuries":[0.6960257787325457,0.6859635875492911,0.9128089798192891,0.7837063735446785,0.8094450293277184,0.6536530738337967,0.7686189511379165,0.6255614536545528,0.8196605374823197,0.7767311608961304,0.9416608007508372,0.8859219198918371,0.7438961038961039,0.27361480917966274,0.7808932610868536,0.5685180016745743,0.8467310131041285,0.8850240323804706,0.5997248968363136,0.7300750354897587],"With injuries":[0.3030791263873971,0.31000922896216127,0.08675317438204036,0.21568295564671366,0.18945204792700657,0.34472505406240345,0.2313056589549074,0.37239689669252757,0.18000795615275814,0.22225050916496944,0.05829653804313048,0.11368373612754211,0.25575757575757574,0.7170026626093572,0.2187384922931243,0.4281793655223742,0.15284627307312948,0.11469769795092336,0.39054460237403843,0.26911377002636383]},"selected":{"id":"14769"},"selection_policy":{"id":"14768"}},"id":"14753","type":"ColumnDataSource"},{"attributes":{"fields":["No injuries"]},"id":"14732","type":"Stack"},{"attributes":{"bottom":{"expr":{"id":"14734"}},"fill_color":{"value":"#ff7f0e"},"line_color":{"value":"#ff7f0e"},"top":{"expr":{"id":"14735"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"14773","type":"VBar"},{"attributes":{"axis":{"id":"14722"},"grid_line_color":null,"ticker":null},"id":"14724","type":"Grid"},{"attributes":{"format":"0 %"},"id":"14791","type":"NumeralTickFormatter"},{"attributes":{"active_multi":null},"id":"14729","type":"Toolbar"},{"attributes":{"axis":{"id":"14725"},"dimension":1,"ticker":null},"id":"14728","type":"Grid"},{"attributes":{"label":{"value":"No injuries"},"renderers":[{"id":"14740"}]},"id":"14752","type":"LegendItem"},{"attributes":{},"id":"14723","type":"CategoricalTicker"},{"attributes":{"bottom":{"expr":{"id":"14732"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#aec7e8"},"line_alpha":{"value":0.1},"line_color":{"value":"#aec7e8"},"top":{"expr":{"id":"14733"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"14756","type":"VBar"},{"attributes":{"items":[{"id":"14752"},{"id":"14770"},{"id":"14790"}],"label_text_font_size":"10px","location":"center_left"},"id":"14751","type":"Legend"},{"attributes":{"bottom":{"expr":{"id":"14730"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"14731"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"14739","type":"VBar"},{"attributes":{},"id":"14726","type":"BasicTicker"}],"root_ids":["14711"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('14913').textContent;
+                  var render_items = [{"docid":"4de2310a-0a56-40a7-af7a-2569570423f0","root_ids":["14711"],"roots":{"14711":"26d2028c-11f2-4332-9be2-c6132ade93dc"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>

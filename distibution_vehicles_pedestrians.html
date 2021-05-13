@@ -1,0 +1,85 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.3.0.min.js" integrity="sha384-HjagQp6T0/7bxYTAXbLotF1MLAGWmhkY5siA1Gc/pcEgvgRPtMsRn0gQtMwGKiw1" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="18d74100-7503-45c9-afa8-7905d2f43ae3" data-root-id="11920"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="12122">
+          {"92cc6c18-cb1f-4f44-9398-257f5bf60380":{"defs":[{"extends":null,"module":null,"name":"DataModel","overrides":[],"properties":[]}],"roots":{"references":[{"attributes":{"items":[{"id":"11961"},{"id":"11979"},{"id":"11999"}],"label_text_font_size":"10px","location":"center_left"},"id":"11960","type":"Legend"},{"attributes":{"bottom":{"expr":{"id":"11939"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#1f77b4"},"line_alpha":{"value":0.1},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"11940"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"11948","type":"VBar"},{"attributes":{},"id":"11978","type":"UnionRenderers"},{"attributes":{"formatter":{"id":"12000"},"major_label_policy":{"id":"11957"},"minor_tick_line_color":null,"ticker":{"id":"11935"}},"id":"11934","type":"LinearAxis"},{"attributes":{"bottom":{"expr":{"id":"11941"}},"fill_color":{"value":"#aec7e8"},"line_color":{"value":"#aec7e8"},"top":{"expr":{"id":"11942"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"11964","type":"VBar"},{"attributes":{"factors":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","LIVERY VEHICLE","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"range_padding":0.1},"id":"11923","type":"FactorRange"},{"attributes":{"active_multi":null},"id":"11938","type":"Toolbar"},{"attributes":{},"id":"11929","type":"LinearScale"},{"attributes":{},"id":"11932","type":"CategoricalTicker"},{"attributes":{"label":{"value":"With injuries"},"renderers":[{"id":"11966"}]},"id":"11979","type":"LegendItem"},{"attributes":{"below":[{"id":"11931"}],"center":[{"id":"11933"},{"id":"11937"},{"id":"11960"}],"height":1000,"left":[{"id":"11934"}],"outline_line_color":null,"renderers":[{"id":"11949"},{"id":"11966"},{"id":"11984"}],"title":{"id":"11921"},"toolbar":{"id":"11938"},"toolbar_location":null,"width":1200,"x_range":{"id":"11923"},"x_scale":{"id":"11927"},"y_range":{"id":"11925"},"y_scale":{"id":"11929"}},"id":"11920","subtype":"Figure","type":"Plot"},{"attributes":{"label":{"value":"No injuries"},"renderers":[{"id":"11949"}]},"id":"11961","type":"LegendItem"},{"attributes":{"source":{"id":"11980"}},"id":"11985","type":"CDSView"},{"attributes":{"data_source":{"id":"11962"},"glyph":{"id":"11964"},"hover_glyph":null,"muted_glyph":null,"name":"With injuries","nonselection_glyph":{"id":"11965"},"view":{"id":"11967"}},"id":"11966","type":"GlyphRenderer"},{"attributes":{"data":{"Causes":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","LIVERY VEHICLE","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"Fatal":[0.011764705882352941,0.008284023668639054,0.050119331742243436,0.03571428571428571,0.011904761904761904,0.20833333333333334,0.011235955056179775,0.018867924528301886,0.0,0.018867924528301886,0.011853448275862068,0.012658227848101266,0.019201228878648235,0.017713365539452495,0.01097746730395504,0.016050085372794537,0.008116334122421373,0.17777777777777778,0.02207505518763797],"No injuries":[0.047058823529411764,0.06272189349112427,0.12171837708830549,0.07758620689655173,0.07142857142857142,0.07291666666666667,0.06741573033707865,0.0,0.18867924528301888,0.09119496855345911,0.010775862068965518,0.10126582278481013,0.05222734254992319,0.008051529790660225,0.05446714638373864,0.0508252703471827,0.06695975650997633,0.07777777777777778,0.05077262693156733],"With injuries":[0.9411764705882353,0.9289940828402367,0.8281622911694511,0.8866995073891626,0.9166666666666666,0.71875,0.9213483146067416,0.9811320754716981,0.8113207547169812,0.889937106918239,0.9773706896551724,0.8860759493670886,0.9285714285714286,0.9742351046698873,0.9345553863123063,0.9331246442800227,0.9249239093676023,0.7444444444444445,0.9271523178807947]},"selected":{"id":"11977"},"selection_policy":{"id":"11978"}},"id":"11962","type":"ColumnDataSource"},{"attributes":{"fields":["No injuries","With injuries"]},"id":"11943","type":"Stack"},{"attributes":{},"id":"11959","type":"UnionRenderers"},{"attributes":{"start":0},"id":"11925","type":"DataRange1d"},{"attributes":{"data_source":{"id":"11980"},"glyph":{"id":"11982"},"hover_glyph":null,"muted_glyph":null,"name":"Fatal","nonselection_glyph":{"id":"11983"},"view":{"id":"11985"}},"id":"11984","type":"GlyphRenderer"},{"attributes":{"source":{"id":"11945"}},"id":"11950","type":"CDSView"},{"attributes":{"data":{"Causes":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","LIVERY VEHICLE","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"Fatal":[0.011764705882352941,0.008284023668639054,0.050119331742243436,0.03571428571428571,0.011904761904761904,0.20833333333333334,0.011235955056179775,0.018867924528301886,0.0,0.018867924528301886,0.011853448275862068,0.012658227848101266,0.019201228878648235,0.017713365539452495,0.01097746730395504,0.016050085372794537,0.008116334122421373,0.17777777777777778,0.02207505518763797],"No injuries":[0.047058823529411764,0.06272189349112427,0.12171837708830549,0.07758620689655173,0.07142857142857142,0.07291666666666667,0.06741573033707865,0.0,0.18867924528301888,0.09119496855345911,0.010775862068965518,0.10126582278481013,0.05222734254992319,0.008051529790660225,0.05446714638373864,0.0508252703471827,0.06695975650997633,0.07777777777777778,0.05077262693156733],"With injuries":[0.9411764705882353,0.9289940828402367,0.8281622911694511,0.8866995073891626,0.9166666666666666,0.71875,0.9213483146067416,0.9811320754716981,0.8113207547169812,0.889937106918239,0.9773706896551724,0.8860759493670886,0.9285714285714286,0.9742351046698873,0.9345553863123063,0.9331246442800227,0.9249239093676023,0.7444444444444445,0.9271523178807947]},"selected":{"id":"11997"},"selection_policy":{"id":"11998"}},"id":"11980","type":"ColumnDataSource"},{"attributes":{"fields":["No injuries"]},"id":"11940","type":"Stack"},{"attributes":{},"id":"11957","type":"AllLabels"},{"attributes":{"axis":{"id":"11931"},"grid_line_color":null,"ticker":null},"id":"11933","type":"Grid"},{"attributes":{"label":{"value":"Fatal"},"renderers":[{"id":"11984"}]},"id":"11999","type":"LegendItem"},{"attributes":{"bottom":{"expr":{"id":"11939"}},"fill_color":{"value":"#1f77b4"},"line_color":{"value":"#1f77b4"},"top":{"expr":{"id":"11940"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"11947","type":"VBar"},{"attributes":{},"id":"11997","type":"Selection"},{"attributes":{},"id":"11977","type":"Selection"},{"attributes":{"axis":{"id":"11934"},"dimension":1,"ticker":null},"id":"11937","type":"Grid"},{"attributes":{"source":{"id":"11962"}},"id":"11967","type":"CDSView"},{"attributes":{"fields":["No injuries","With injuries"]},"id":"11942","type":"Stack"},{"attributes":{},"id":"11935","type":"BasicTicker"},{"attributes":{},"id":"11952","type":"CategoricalTickFormatter"},{"attributes":{"data":{"Causes":["2 dr sedan","4 dr sedan","Box Truck","Bus","Convertible","Dump","E-Scooter","LIVERY VEHICLE","Moped","Motorcycle","PASSENGER VEHICLE","PK","Pick-up Truck","SPORT UTILITY / STATION WAGON","Sedan","Station Wagon/Sport Utility Vehicle","TAXI","Tractor Truck Diesel","Van"],"Fatal":[0.011764705882352941,0.008284023668639054,0.050119331742243436,0.03571428571428571,0.011904761904761904,0.20833333333333334,0.011235955056179775,0.018867924528301886,0.0,0.018867924528301886,0.011853448275862068,0.012658227848101266,0.019201228878648235,0.017713365539452495,0.01097746730395504,0.016050085372794537,0.008116334122421373,0.17777777777777778,0.02207505518763797],"No injuries":[0.047058823529411764,0.06272189349112427,0.12171837708830549,0.07758620689655173,0.07142857142857142,0.07291666666666667,0.06741573033707865,0.0,0.18867924528301888,0.09119496855345911,0.010775862068965518,0.10126582278481013,0.05222734254992319,0.008051529790660225,0.05446714638373864,0.0508252703471827,0.06695975650997633,0.07777777777777778,0.05077262693156733],"With injuries":[0.9411764705882353,0.9289940828402367,0.8281622911694511,0.8866995073891626,0.9166666666666666,0.71875,0.9213483146067416,0.9811320754716981,0.8113207547169812,0.889937106918239,0.9773706896551724,0.8860759493670886,0.9285714285714286,0.9742351046698873,0.9345553863123063,0.9331246442800227,0.9249239093676023,0.7444444444444445,0.9271523178807947]},"selected":{"id":"11958"},"selection_policy":{"id":"11959"}},"id":"11945","type":"ColumnDataSource"},{"attributes":{"bottom":{"expr":{"id":"11943"}},"fill_color":{"value":"#ff7f0e"},"line_color":{"value":"#ff7f0e"},"top":{"expr":{"id":"11944"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"11982","type":"VBar"},{"attributes":{"data_source":{"id":"11945"},"glyph":{"id":"11947"},"hover_glyph":null,"muted_glyph":null,"name":"No injuries","nonselection_glyph":{"id":"11948"},"view":{"id":"11950"}},"id":"11949","type":"GlyphRenderer"},{"attributes":{"bottom":{"expr":{"id":"11943"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#ff7f0e"},"line_alpha":{"value":0.1},"line_color":{"value":"#ff7f0e"},"top":{"expr":{"id":"11944"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"11983","type":"VBar"},{"attributes":{"format":"0 %"},"id":"12000","type":"NumeralTickFormatter"},{"attributes":{},"id":"11954","type":"AllLabels"},{"attributes":{"bottom":{"expr":{"id":"11941"}},"fill_alpha":{"value":0.1},"fill_color":{"value":"#aec7e8"},"line_alpha":{"value":0.1},"line_color":{"value":"#aec7e8"},"top":{"expr":{"id":"11942"}},"width":{"value":0.9},"x":{"field":"Causes"}},"id":"11965","type":"VBar"},{"attributes":{"fields":[]},"id":"11939","type":"Stack"},{"attributes":{},"id":"11927","type":"CategoricalScale"},{"attributes":{},"id":"11958","type":"Selection"},{"attributes":{"fields":["No injuries"]},"id":"11941","type":"Stack"},{"attributes":{"formatter":{"id":"11952"},"major_label_orientation":"vertical","major_label_policy":{"id":"11954"},"minor_tick_line_color":null,"ticker":{"id":"11932"}},"id":"11931","type":"CategoricalAxis"},{"attributes":{},"id":"11998","type":"UnionRenderers"},{"attributes":{"fields":["No injuries","With injuries","Fatal"]},"id":"11944","type":"Stack"},{"attributes":{"text":"Vehicle types and distributions of severity for accidents involving pedestrians"},"id":"11921","type":"Title"}],"root_ids":["11920"]},"title":"Bokeh Application","version":"2.3.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('12122').textContent;
+                  var render_items = [{"docid":"92cc6c18-cb1f-4f44-9398-257f5bf60380","root_ids":["11920"],"roots":{"11920":"18d74100-7503-45c9-afa8-7905d2f43ae3"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
